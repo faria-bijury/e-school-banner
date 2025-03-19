@@ -1,0 +1,87 @@
+/*Font family*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Common Css Starts*/
+:root{
+	--pop : "Poppins", sans-serif;
+	--rob :  "Roboto", sans-serif;
+
+	--bl : #000000;
+	--or : #FD511A;
+	--gr : #21B573;
+	--wh : white;
+}
+body{
+	font-family: var(--pop);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--bl);
+}
+/*Header Starts*/
+header{
+	padding: 15px 0;
+	background-color: #e3ffe3;
+}
+.cnav{}
+.logo{}
+.nbtn:focus{
+    box-shadow: 0 0 0 1px;
+}
+.menu{}
+.menu ul li a{
+color: var(--bl) !important;
+padding: 0 20px !important;
+}
+.menu ul li a:hover{
+color: var(--or) !important;
+}
+.c_btn{
+	background-color: var(--gr);
+	border-radius: 33px;
+	font-family: var(--rob);
+	color: var(--wh);
+	border: none;
+}
+.c_btn:hover{
+	background-color: var(--or) ;
+}
+.c_btn:active{
+	background-color: var(--or) !important;
+}
+.sn_btn{
+	margin-left: 10px;
+	padding: 12px 28px;
+}
+/*Header ends*/
+/*Banner starts*/
+.banner{
+	background-color: #e3ffe3;
+	padding-bottom: 65px;
+}
+.b_text{}
+.bp1{
+	color: var(--or);
+}
+.bh1{
+	margin: 10px 45px 20px 0;
+	font-size: 48px;
+    font-weight: 700;
+    color: var(--bl);
+    line-height: 70px;
+}
+.bh1 span{
+	color: var(--gr);
+}
+.bp2{
+	line-height: 36px;
+}
+.get_btn{
+	margin: 15px 0 0;
+	padding: 12px 36px;
+}
+.b_img{}
+
+
+
+/*Banner ends*/
